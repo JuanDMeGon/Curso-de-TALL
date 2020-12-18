@@ -1,8 +1,8 @@
 <div
     class="flex flex-col bg-indigo-900 h-screen"
     x-data="{
-        showSubscribe: false,
-        showSuccess: false,
+        showSubscribe: @entangle('showSubscribe'),
+        showSuccess: @entangle('showSuccess'),
     }"
 >
     <nav class="pt-5 flex justify-between container mx-auto text-indigo-200">
